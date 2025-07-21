@@ -8,8 +8,8 @@ class Welcome extends Component {
                 <h1>Welcome to the Computer Science and Engineering Department</h1>
                 <p>This is the Information Technology section.</p>
                 <p>Feel free to explore our courses and resources.</p>
-                <Link href='/app'>App</Link> <br />                  //Use link instead of href it is compatible with git hub.
-                <Link href='/myapp'>MyApp</Link>
+                <Link to='/app'>App</Link> <br />                  //Use link instead of href it is compatible with git hub.
+                <Link to='/myapp'>MyApp</Link>
             </div>
         );
     }
