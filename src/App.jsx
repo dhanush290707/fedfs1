@@ -9,7 +9,7 @@ function App() {  //The function component App is defined here should be same as
   return (
     <div className="dept">
       Computer Science and Engineering<br />
-      <label className='deptit'>Information Technology</label>
+      <label className='deptitg'>Information Technology</label>
     </div>
   )
 }
