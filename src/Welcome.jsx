@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class Welcome extends Component {
     render() {
@@ -7,8 +8,8 @@ class Welcome extends Component {
                 <h1>Welcome to the Computer Science and Engineering Department</h1>
                 <p>This is the Information Technology section.</p>
                 <p>Feel free to explore our courses and resources.</p>
-                <a href='/app'>App</a><br />
-                <a href='/myapp'>MyApp</a>
+                <Link href='/app'>App</Link> <br />                  //Use link instead of href it is compatible with git hub.
+                <Link href='/myapp'>MyApp</Link>
             </div>
         );
     }

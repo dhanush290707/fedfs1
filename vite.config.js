@@ -4,5 +4,10 @@ import react from '@vitejs/plugin-react-swc'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  server: {port: 5173}
+  
+  server: {
+    port: 3000, // You can change the port if needed
+  },
+
+  base: '/fedfs1/' // Set the base path to match the repository name
 })
